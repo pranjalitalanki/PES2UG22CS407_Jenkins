@@ -7,7 +7,7 @@ pipeline {
                 script {
                     sh '''
                     echo "Compiling the C++ file..."
-                    g++ -o YOUR_SRN-1 main.cpp
+                    g++ -o PES2UG22CS407_1 main.cpp
                     '''
                 }
             }
@@ -18,7 +18,7 @@ pipeline {
                 script {
                     sh '''
                     echo "Running the C++ program..."
-                    ./YOUR_SRN-1
+                    ./PES2UG22CS407_1
                     '''
                 }
             }
